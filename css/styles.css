@@ -1,0 +1,19 @@
+:root {
+    --main-font: font-family: 'SF Pro Display', sans-serif;
+    --main-weight: 600;
+    --main-background: #F5F5F5;
+}
+
+body {
+    background-color: var(--main-background);
+    font-family: var(--main-font);
+    font-weight: var(--main-weight);
+    font-size: 22px;
+    /* line-height: 1.6px; */
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
