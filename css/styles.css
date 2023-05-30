@@ -1,12 +1,12 @@
 :root {
-    --main-font: font-family: 'SF Pro Display', sans-serif;
     --main-weight: 600;
     --main-background: #F5F5F5;
 }
 
 body {
     background-color: var(--main-background);
-    font-family: var(--main-font);
+    font-family: 'SF Pro Display',
+        sans-serif;
     font-weight: var(--main-weight);
     font-size: 22px;
     /* line-height: 1.6px; */
@@ -22,6 +22,7 @@ body {
     max-width: 1240px;
     padding-left: 100px;
     padding-right: 100px;
+    
 }
 
 img {
@@ -47,7 +48,8 @@ a {
     align-items: center;
     gap: 40px;
     color: #3C3C3C;
-    font-family: var(--main-font);
+    font-family: 'SF Pro Display',
+        sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.3;
@@ -72,10 +74,159 @@ a {
     height: 44px;
     background-color: #0071E3;
     border-radius: 8.096px;
-    font-family: var(--main-font);
+    font-family: 'SF Pro Display', sans-serif;
     font-weight: var(--main-weight);
     font-size: 12.144px;
     line-height: 1.6;
+    border: #0071E3;
    
-  
+}
+
+.btn-request:focus {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+.btn-request:hover {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+
+
+
+.main-heading {
+    font-family: 'SF Pro Display',
+        sans-serif;
+        color: #3C3C3C;
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 1.2;
+        width: 711px;
+        height: 130px;
+}
+
+.subtitle-hero {
+    font-family: 'SF Pro Display',
+        sans-serif;
+    color: #5E5955;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.5;
+
+}
+
+.statistics-heading {
+    color: #0068E3;
+    font-family: 'SF Pro Display',
+        sans-serif;
+        font-weight: 900;
+        font-size: 48.5088px;
+        line-height: 1;
+}
+
+.statistics.list {
+    display: flex;
+    font-family: 'SF Pro Display',
+     sans-serif; 
+     font-weight: 500;
+     font-size: 21px;
+     line-height: 1.4;
+}
+
+.main-btn-request {
+    width: 263px;
+    height: 83px;
+    background-color: #0071E3;
+    color: #FFFFFF;
+    border-radius: 15.0852px;
+    border: #0071E3;
+}
+
+.main-btn-request:focus {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+.main-btn-request:hover {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+.section-tittle {
+    color: #3C3C3C;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 800;
+            font-size: 54px;
+            line-height: 1.2;
+
+}
+
+.subtitle-presentation {
+    color: #000000;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 1.4;
+
+}
+
+.presentation-paragraph {
+    color: #6D7174;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 600;
+                font-size: 18px;
+                line-height: 1.8;
+
+}
+
+.subtitle-second-section {
+    color: #3C3C3C;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 1.4;
+
+}
+
+
+.btn-section-title {
+    color: #3C3C3C;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 800;
+            font-size: 37px;
+            line-height: 1.2;
+
+}
+
+.section-btn {
+    color: #0068E3;
+    border: 1px solid #0068E3;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+        gap: 10px;
+}
+
+.section-btn:focus {
+    color: #E3E3E3;
+        background-color: #0068E3;
+        cursor: pointer;
+
+}
+
+.section-btn:hover {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+
 }
