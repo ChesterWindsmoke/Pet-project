@@ -20,8 +20,8 @@ body {
 
 .container {
     max-width: 1240px;
-    padding-left: 100px;
-    padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
     
 }
 
@@ -229,4 +229,35 @@ a {
     background-color: #0068E3;
     cursor: pointer;
 
+}
+
+.overlay {
+    background: linear-gradient(90deg, #0068E3 0%, rgba(0, 104, 227, 0.515625) 50.51%, #0068E3 100%);
+    width: 1441px;
+    height: 472px;
+}
+
+.manager-ask-title {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 1.2;
+            text-align: center;
+            color: #E3E3E3;
+}
+
+.manager-ask-btn {
+    width: 262.6px;
+        height: 82.26px;
+        background-color: #FBFBFB;
+        border-radius: 15.0852px;
+        color: #0068E3;
+        cursor: pointer;
+        font-family: 'SF Pro Display',
+                sans-serif;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 1.6;
+                border: none;
 }
