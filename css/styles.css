@@ -261,3 +261,19 @@ a {
                 line-height: 1.6;
                 border: none;
 }
+
+
+.manager-ask {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 1.4;
+            text-align: center;
+            color: #E3E3E3;
+
+}
+
+.card-item {
+    background-color: #0068E3;
+}
