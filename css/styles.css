@@ -20,8 +20,11 @@ body {
 
 .container {
     max-width: 1240px;
+    padding-left: 15px;
+    padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: space-between;
     
 }
 
@@ -276,4 +279,97 @@ a {
 
 .card-item {
     background-color: #0068E3;
+    width: 393px;
+        height: 271px;
+        border-radius: 10px;
+        text-align: left;
+
+}
+
+.special-offer-title {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 800;
+            font-size: 54px;
+            line-height: 1.2;
+            text-align: center;
+            color: #3C3C3C;
+
+}
+
+.special-offer-subtitle {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 1.4;
+            text-align: center;
+            color: #000000;
+}
+
+.special-offer-text {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 1.4;
+            text-align: center;
+            color: #000000;
+
+}
+
+
+.timer {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 500;
+            font-size: 180px;
+            line-height: 100%;
+            text-align: center;
+                letter-spacing: 0.02em;
+                color: #0068E3;
+
+}
+
+.special-offer-btn {
+    width: 262.6px;
+    height: 82.26px;
+    background-color: #0071E3;;
+    border-radius: 15.0852px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'SF Pro Display',
+        sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.6;
+    border: none;
+}
+
+.special-offer-btn:focus {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+.special-offer-btn:hover {
+    color: #E3E3E3;
+    background-color: #0068E3;
+    cursor: pointer;
+}
+
+.hero-left-side {
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+}
+
+.statistics {
+   display: flex;
+   flex-wrap: wrap;
+   width: 450px;
+height: 306.44px;
+
 }
