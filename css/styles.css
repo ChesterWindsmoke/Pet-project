@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    max-width: 1240px;
+    max-width: 1270px;
     padding-left: 15px;
     padding-right: 15px;
   margin-left: auto;
@@ -240,9 +240,13 @@ a {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background: linear-gradient(90deg, #0068E3 0%, rgba(0, 104, 227, 0.515625) 50.51%, #0068E3 100%);
-    width: 1441px;
+    max-width: 1441px;
     height: 472px;
+    
 }
 
 .manager-ask-title {
@@ -268,6 +272,9 @@ a {
                 font-size: 22px;
                 line-height: 1.6;
                 border: none;
+                margin-left: auto;
+                margin-right: auto;
+             
 }
 
 
@@ -287,7 +294,7 @@ a {
     width: 393px;
         height: 271px;
         border-radius: 10px;
-        text-align: left;
+       
 
 }
 
@@ -417,4 +424,56 @@ height: 306.44px;
     display: flex;
     gap: 36px;
     margin-top: 175px;
+}
+
+.btn-section {
+    padding-bottom: 90px;
+}
+
+.btn-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.benefits {
+    font-family: 'SF Pro Display',
+            sans-serif;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 1.2;
+        text-align: left;
+        color: #3C3C3C;
+        width: 686px;
+
+}
+
+.benefits-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+.card-item-text {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 400;
+        font-size: 18px;
+            line-height: 1.4;
+        color: #E3E3E3;
+
+}
+
+.card-item-title {
+    font-family: 'SF Pro Display',
+            sans-serif;
+        font-weight: 700;
+    font-size: 22px;
+        line-height: 1.2;
+        color: #E3E3E3;
+
+}
+
+.section-timer {
+    text-align: center;
 }
