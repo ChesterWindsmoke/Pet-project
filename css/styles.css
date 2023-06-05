@@ -406,3 +406,15 @@ height: 306.44px;
 .about-us-item {
     margin-right: auto;
 }
+
+.second-section-bloc {
+    display: flex;
+    gap: 31px;
+    margin-top: 99px;
+}
+
+.third-section-bloc {
+    display: flex;
+    gap: 36px;
+    margin-top: 175px;
+}
