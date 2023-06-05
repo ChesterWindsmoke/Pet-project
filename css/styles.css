@@ -196,7 +196,7 @@ a {
     color: #6D7174;
     font-family: 'SF Pro Display',
             sans-serif;
-            font-weight: 600;
+            font-weight: var(--main-weight);
                 font-size: 18px;
                 line-height: 1.8;
                 margin: 0;
@@ -215,6 +215,17 @@ a {
 
 }
 
+.subtitle-second-section::after {
+    content: "";
+    display: block;
+    width: 1440px;
+    height: 1px;
+    background-color:#BABABA;
+        margin-top: 86px;
+        margin-bottom: 0;
+}
+
+
 .btn-section-title {
     color: #3C3C3C;
     font-family: 'SF Pro Display',
@@ -228,7 +239,7 @@ a {
 .section-btn {
     font-family: 'SF Pro Display',
             sans-serif;
-            font-weight: 600;
+            font-weight: var(--main-weight);
             font-size: 16.5px;
             line-height: 1.4;
     color: #0068E3;
@@ -336,7 +347,7 @@ a {
 .special-offer-text {
     font-family: 'SF Pro Display',
             sans-serif;
-            font-weight: 600;
+            font-weight: var(--main-weight);
             font-size: 26px;
             line-height: 1.4;
             text-align: center;
@@ -368,7 +379,7 @@ a {
     cursor: pointer;
     font-family: 'SF Pro Display',
         sans-serif;
-    font-weight: 600;
+    font-weight: var(--main-weight);
     font-size: 22px;
     line-height: 1.6;
     border: none;
@@ -450,6 +461,17 @@ height: 306.44px;
     gap: 25px;
 }
 
+.btn-menu::after {
+    content: "";
+    display: block;
+    width: 1440px;
+    height: 1px;
+    background-color: #BABABA;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
 .benefits {
     font-family: 'SF Pro Display',
             sans-serif;
@@ -490,4 +512,32 @@ height: 306.44px;
 
 .section-timer {
     text-align: center;
+}
+
+.closed-menu {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 800;
+            font-size: 37px;
+            line-height: 1.2;
+            color: #3C3C3C;
+            width: 147px;
+            margin-top: 40px;
+            margin-bottom: 0;
+
+}
+
+.closed-menu::after {
+    content: "";
+        display: block;
+        width: 1440px;
+        height: 1px;
+        background-color: #BABABA;
+        margin-top: 31px;
+        margin-bottom: 0;
+
+}
+
+.fifth-section-item {
+    margin-top: 89px;
 }
