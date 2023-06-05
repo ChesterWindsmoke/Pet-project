@@ -128,6 +128,8 @@ a {
         font-weight: 900;
         font-size: 48.5088px;
         line-height: 1;
+        margin-top: 0;
+        margin-bottom: 0;
 }
 
 .statistics.list {
@@ -167,6 +169,8 @@ a {
             font-weight: 800;
             font-size: 54px;
             line-height: 1.2;
+            margin-top: 0;
+            margin-bottom: 20px;
 
 }
 
@@ -177,6 +181,7 @@ a {
             font-weight: 400;
             font-size: 26px;
             line-height: 1.4;
+            margin-right: auto;
 
 }
 
@@ -364,12 +369,40 @@ a {
 
 .hero {
     display: flex;
+    padding-bottom: 65px;
+    padding-top: 46px;
 }
 
 .statistics {
    display: flex;
    flex-wrap: wrap;
-   width: 450px;
+   width: 480px;
 height: 306.44px;
+}
 
+.construction-part {
+    margin-right: 90px;
+}
+
+.recommend-part {
+    margin-right: 146px;
+}
+
+
+.about-us-section {
+    padding-top: 100px;
+    padding-bottom: 215px;
+}
+
+.first-section-bloc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-section-text {
+    flex-direction: column;
+}
+
+.about-us-item {
+    margin-right: auto;
 }
