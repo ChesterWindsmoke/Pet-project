@@ -37,6 +37,10 @@ img {
 a {
     text-decoration: none;
 }
+/* Прибираємо колір відвіданих посилань за замовчуванням */
+a:visited {
+    color: currentColor;
+}
 
 .container.main-nav {
     display: flex;
@@ -59,13 +63,12 @@ a {
     
 }
 
-.logo>span {
-    color: #0071E3;
+.site-nav-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo {
-    color: #000000;
-
+.site-nav-link:hover {
+    color: #0068E3;
 }
 
 .btn-request {
@@ -82,7 +85,7 @@ a {
     font-size: 12.144px;
     line-height: 1.6;
     border: #0071E3;
-   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-request:focus {
@@ -153,6 +156,7 @@ a {
     border-radius: 15.0852px;
     border: #0071E3;
     margin-top: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn-request:focus {
@@ -248,6 +252,7 @@ a {
     border-radius: 20px;
     background-color: #FFFFFF;
     padding: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      
 }
 
@@ -300,7 +305,13 @@ a {
                 border: none;
                 margin-left: auto;
                 margin-right: auto;
+                transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
              
+}
+
+.manager-ask-btn:hover {
+    background-color: #E3E3E3;
+    color: #0068E3;
 }
 
 
@@ -386,6 +397,7 @@ a {
     font-size: 22px;
     line-height: 1.6;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .special-offer-btn:focus {
@@ -464,10 +476,65 @@ height: 306.44px;
     gap: 25px;
 }
 
+.btn-menu-first {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 956px;
+
+}
+
+.btn-menu-first::after {
+    content: "";
+    display: block;
+    width: 1500px;
+    height: 1px;
+    background-color: #BABABA;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.btn-menu-fifth {
+    display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        width: 936px;
+}
+
+.btn-menu-fifth::after {
+    content: "";
+    display: block;
+    width: 1500px;
+    height: 1px;
+    background-color: #BABABA;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
+.btn-menu-seventh {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 1150px;
+}
+
+.btn-menu-seventh::after {
+    content: "";
+    display: block;
+    width: 1500px;
+    height: 1px;
+    background-color: #BABABA;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+}
+
 .btn-menu::after {
     content: "";
     display: block;
-    width: 1440px;
+    width: 1500px;
     height: 1px;
     background-color: #BABABA;
     margin-top: 50px;
@@ -551,6 +618,11 @@ height: 306.44px;
 
 .discuss-project-btn {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     left: 1002px;
         top: 2554px;
     font-family: 'SF Pro Display',
@@ -565,12 +637,27 @@ height: 306.44px;
     height: 298px;
     border-radius: 50%;
     border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.discuss-project-btn:hover {
+    background-color: #0068E3;
+    color: #E3E3E3;
+    cursor: pointer;
+}
+
+.discuss-btn-text {
+    width: 110px;
+    margin-bottom: 27px;
+    margin-top: 0;
 }
 
 .close-x {
     display: inline-block;
         stroke: currentColor;
         fill: #3C3C3C;
+        width: 81px;
+        height: 81px;
 }
 
 .close-x-button {
@@ -583,8 +670,7 @@ height: 306.44px;
 
 .plus-button {
     display: flex;
-    width: 81px;
-    height: 81px;
+    height: 95px;
     margin-top: 43px;
     margin-left: auto;
     border: none;
@@ -595,8 +681,33 @@ height: 306.44px;
     display: inline-block;
         stroke: currentColor;
         fill: #3C3C3C;
+        width: 81px;
+        height: 81px;
 }
 
 .test {
     display: flex;
 }
+
+.arrow {
+    width: 48px;
+    height: 22px;
+}
+
+.down-overlay {
+    background: linear-gradient(180deg, #FBFBFB 6.92%, rgba(251, 251, 251, 0.7) 53.12%, #FBFBFB 98.96%), 
+    url(../images/overlay.jpg);
+    max-width: 1440px;
+    max-height: 830px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+        margin-right: auto;
+
+}
+
+.footer-container {
+    background-color: var(--main-background);
+}
+
