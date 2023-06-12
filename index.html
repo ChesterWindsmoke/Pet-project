@@ -42,7 +42,7 @@
             <div class="hero-left-side">
             <h1 class="main-heading">Your reliable partner <br>for repair and construction</h1>
             <p class="subtitle-hero">Create your perfect project with the help of our professional team!</p>
-            <button class="main-btn-request">Leave a request</button>
+            <button class="main-btn-request" data-modal-open>Leave a request</button>
             </div>
            
             <!-- Права частина hero -->
@@ -382,8 +382,41 @@
             </div>
         </nav>
         </div>
-
     </footer>
+    <!-- Модальне вікно -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close-x-button" data-modal-close>
+                <svg class="close-x">
+                    <use href="./images/sprite.svg#icon-close-x"></use>
+                </svg>
+            </button>
+            <form>
+                <h5 class="form-title">Please leave your contact</h5>
+                <h6 class="form-subtitle">Our manager will contact you</h6>
+                <!-- Поле вводу your name -->
+                <div class="form-field-name">
+                    <label class="form-label" for="name">Name</label>
+                        <input type="text" name="name" id="name" autofocus class="input" required>
+                </div>
+                <!-- Поле вводу your phone number -->
+                <div class="form-field-phone">
+                    <label class="form-label" for="phone">Your phone number</label>
+                    <input type="text" name="phone" id="phone" autofocus class="input" required>
+                </div>
+                <!-- Поле вводу Enter your mail -->
+                <div class="form-field-mail">
+                    <label class="form-label" for="mail">Enter your mail</label>
+                    <input type="text" name="mail" id="mail" autofocus class="input" required>
+                </div>
+                <!-- Кнопка відправки -->
+                <div class="form-send">
+                    <button type="submit" class="button-send">Leave a request</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <script src="./js/timer.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
