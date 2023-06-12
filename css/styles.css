@@ -233,7 +233,8 @@ a {
             font-weight: 800;
             font-size: 37px;
             line-height: 1.2;
-
+            text-transform: uppercase;
+           
 }
 
 .section-btn {
@@ -319,6 +320,8 @@ a {
     width: 393px;
         height: 271px;
         border-radius: 10px;
+        padding-left: 27px;
+        padding-top: 20px;
        
 
 }
@@ -497,6 +500,8 @@ height: 306.44px;
         font-size: 18px;
             line-height: 1.4;
         color: #E3E3E3;
+        margin-top: 10px;
+        margin-bottom: 0;
 
 }
 
@@ -507,6 +512,8 @@ height: 306.44px;
     font-size: 22px;
         line-height: 1.2;
         color: #E3E3E3;
+        margin-top: 22px;
+        margin-bottom: 0;
 
 }
 
@@ -540,4 +547,56 @@ height: 306.44px;
 
 .fifth-section-item {
     margin-top: 89px;
+}
+
+.discuss-project-btn {
+    position: absolute;
+    left: 1002px;
+        top: 2554px;
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 1.2;
+            text-align: center;
+            color: #FFFFFF;
+    background-color: #0068E3;
+    width: 298px;
+    height: 298px;
+    border-radius: 50%;
+    border: none;
+}
+
+.close-x {
+    display: inline-block;
+        stroke: currentColor;
+        fill: #3C3C3C;
+}
+
+.close-x-button {
+    display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    border: none;
+    background-color: var(--main-background);
+}
+
+.plus-button {
+    display: flex;
+    width: 81px;
+    height: 81px;
+    margin-top: 43px;
+    margin-left: auto;
+    border: none;
+    background-color: var(--main-background);
+}
+
+.plus {
+    display: inline-block;
+        stroke: currentColor;
+        fill: #3C3C3C;
+}
+
+.test {
+    display: flex;
 }
