@@ -764,8 +764,26 @@ height: 306.44px;
     backdrop-filter: blur(8.5px);
     transform: scale(1) translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 51px;
 }
 
 .form-title {
+    font-family: 'SF Pro Display',
+            sans-serif;
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 1.2;
+            color: #3C3C3C;
+            width: 339px;
+            margin-top: 0;
+            margin-bottom: 0;
     
+}
+
+input {
+    width: 353px;
+    height: 59px;
+    background-color: #DADADA;
+    border: 1px solid #A6A6A6;
+        border-radius: 10px;
 }
