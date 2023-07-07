@@ -780,10 +780,51 @@ height: 306.44px;
     
 }
 
-input {
+.input {
     width: 353px;
     height: 59px;
     background-color: #DADADA;
     border: 1px solid #A6A6A6;
         border-radius: 10px;
+        margin-bottom: 13px;
+        padding-left: 17px;
+        
+}
+
+.input-mail {
+    width: 353px;
+        height: 59px;
+        background-color: #DADADA;
+        border: 1px solid #A6A6A6;
+        border-radius: 10px;
+    margin-bottom: 42px;
+    padding-left: 17px;
+}
+
+.button-send {
+    width: 185px;
+    height: 58px;
+    background-color: #0071E3;
+    border-radius: 10px;
+    justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        border: none;
+}
+
+.close-x-modal {
+    display: inline-block;
+        stroke: currentColor;
+        fill: #3C3C3C;
+        width: 48px;
+        height: 48px;
+
+}
+
+.close-x-button-modal {
+        position: absolute;
+        left: 625px;
+        top: 27px;
+        border: none;
+        
 }
